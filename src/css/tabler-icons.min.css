@@ -89,6 +89,9 @@
 .ti-brand-reddit:before {
   content: "\ec8e";
 }
+.ti-brand-aniwave:before {
+  content: "\f655";
+}
 
 /*  */
 .ti-12-hours:before {

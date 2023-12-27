@@ -1,4 +1,4 @@
-# LaunchPAD
+# LaunchPad
 
 ## Overview
 
@@ -14,12 +14,12 @@ Welcome to LaunchPad! This minimalist and highly customizable start page is craf
 
 - **Aesthetically Pleasing:** Visually delightful experience with lots of eye-candy making for a sense of coziness.
 
-
 ## Getting Started
 
-Use the below link to access the page. 
+Use the below link to access the page.
 
 https://ja-der.github.io/LaunchPad/
 
 ## Note
+
 This start page is based on the dawn repository, which has even more functionality. I modified the dot files and functionalities to fit my style and preferences.

@@ -59,6 +59,7 @@ const default_config = {
             url: "https://uottawa.brightspace.com/d2l/home",
             icon: "brand-d2l",
             icon_color: "#a9b665",
+            
           },
           {
             name: "uozone",
@@ -92,7 +93,7 @@ const default_config = {
       }],
     },
     {
-      name: "Jouer",
+      name: "Media",
       background_url: "src/img/banners/cbg-1.gif",
       categories: [
         {
@@ -116,6 +117,14 @@ const default_config = {
               icon: "brand-dramacool",
               icon_color: "#ea6962",
             },
+            {
+              name: "Aniwave",
+              url: "https://aniwave.to/",
+              icon: "brand-aniwave",
+              icon_color: "#773ce6",
+            },
+
+            
           ],
         },
         {
