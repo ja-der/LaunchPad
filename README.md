@@ -26,4 +26,4 @@ This start page is based on the dawn repository, which has even more functionali
 
 ## Preview
 
-![PREVIEW](calculatorPreview.png)
+![PREVIEW](LaunchPad preview.png)
