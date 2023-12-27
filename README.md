@@ -23,3 +23,7 @@ https://ja-der.github.io/LaunchPad/
 ## Note
 
 This start page is based on the dawn repository, which has even more functionality. I modified the dot files and functionalities to fit my style and preferences.
+
+## Preview
+
+![PREVIEW](calculatorPreview.png)
