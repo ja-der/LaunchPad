@@ -75,8 +75,14 @@ const default_config = {
           },
         ],
       }, {
-        name: "Connections",
+        name: "More",
         links: [
+          {
+            name: "phind",
+            url: "https://www.phind.com/",
+            icon: "brand-openai",
+            icon_color: "#89b482",
+          },
           {
             name: "leonardo ai",
             url: "https://app.leonardo.ai/",
@@ -182,87 +188,6 @@ const default_config = {
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/cbg-10.gif",
-      categories: [
-        {
-          name: "repositories",
-          links: [
-            {
-              name: "github",
-              url: "https://github.com/",
-              icon: "brand-github",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "gitlab",
-              url: "https://gitlab.com/",
-              icon: "brand-gitlab",
-              icon_color: "#e78a4e",
-            },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
-            {
-              name: "phind",
-              url: "https://www.phind.com/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
-            },
-            {
-              name: "flutter",
-              url: "https://docs.flutter.dev/ui",
-              icon: "brand-flutter",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "hacktricks",
-              url: "https://book.hacktricks.xyz/welcome/readme",
-              icon: "biohazard",
-              icon_color: "#ea6962",
-            },
-            {
-              name: "vscode",
-              url: "https://vscode.dev/",
-              icon: "brand-vscode",
-              icon_color: "#7daea3",
-            },
-          ],
-        },
-        {
-          name: "challenges",
-          links: [
-            {
-              name: "hackthebox",
-              url: "https://app.hackthebox.com",
-              icon: "box",
-              icon_color: "#a9b665",
-            },
-            {
-              name: "cryptohack",
-              url: "https://cryptohack.org/challenges/",
-              icon: "brain",
-              icon_color: "#e78a4e",
-            },
-            {
-              name: "tryhackme",
-              url: "https://tryhackme.com/dashboard",
-              icon: "brand-onedrive",
-              icon_color: "#ea6962",
-            },
-            {
-              name: "hackerrank",
-              url: "https://www.hackerrank.com/dashboard",
-              icon: "code-asterix",
-              icon_color: "#a9b665",
-            },
-          ],
-        },
-      ],
-    },
-    {
       name: "myself",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
@@ -302,6 +227,95 @@ const default_config = {
             },
           ],
         },
+      ],
+    },
+    {
+      name: "dev",
+      background_url: "src/img/banners/cbg-10.gif",
+      categories: [
+        {
+          name: "Tools",
+          links: [
+            {
+              name: "github",
+              url: "https://github.com/",
+              icon: "brand-github",
+              icon_color: "#7daea3",
+            },
+            {
+              name: "gitlab",
+              url: "https://gitlab.com/",
+              icon: "brand-gitlab",
+              icon_color: "#7daea3",
+            },
+            {
+              name: "OverAPI",
+              url: "https://overapi.com/python",
+              icon: "brand-openapi",
+              icon_color: "#7daea3",
+            },
+            {
+              name: "carbon",
+              url: "https://carbon.now.sh/",
+              icon: "brand-carbon",
+              icon_color: "#7daea3",
+            },
+            {
+              name: "vscode",
+              url: "https://vscode.dev/",
+              icon: "brand-vscode",
+              icon_color: "#7daea3",
+            },
+          ],
+        },
+        {
+          name: "resources",
+          links: [
+            
+            {
+              name: "dev.to",
+              url: "https://dev.to/",
+              icon: "brand-flipboard",
+              icon_color: "#89b482",
+            },
+            {
+              name: "hacker news",
+              url: "https://news.ycombinator.com/",
+              icon: "article",
+              icon_color: "#89b482",
+            },
+          ],
+        },
+        {
+          name: "challenges",
+          links: [
+            {
+              name: "hackthebox",
+              url: "https://app.hackthebox.com",
+              icon: "box",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "cryptohack",
+              url: "https://cryptohack.org/challenges/",
+              icon: "brain",
+              icon_color: "#e78a4e",
+            },
+            {
+              name: "tryhackme",
+              url: "https://tryhackme.com/dashboard",
+              icon: "brand-onedrive",
+              icon_color: "#ea6962",
+            },
+            {
+              name: "hackerrank",
+              url: "https://www.hackerrank.com/dashboard",
+              icon: "code-asterix",
+              icon_color: "#a9b665",
+            },
+          ],
+        },
+        
       ],
     },
   ],
