@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Ottawa, Canada',
+    location: "Toronto, Canada",
     scale: "C",
   },
   clock: {
@@ -15,7 +15,7 @@ const default_config = {
       d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
     },
   },
-  disabled: ['search-bar'],
+  disabled: ["search-bar"],
   localIcons: false,
   fastlink: "",
   openLastVisitedTab: true,
@@ -23,80 +23,83 @@ const default_config = {
     {
       name: "school",
       background_url: "src/img/banners/cbg-6.gif",
-      categories: [{
-        name: "Tools",
-        links: [
-          {
-            name: "Spotify",
-            url: "https://www.spotify.com/",
-            icon: "brand-spotify",
-            icon_color: "#1a782c",
-          },
-          {
-            name: "Todoist",
-            url: "https://todoist.com/",
-            icon: "brand-todoist",
-            icon_color: "#c41714",
-          },
-          {
-            name: "ChatGPT",
-            url: "https://chat.openai.com/",
-            icon: "brand-chatgpt",
-            icon_color: "#a9b665",
-          },
-          {
-            name: "Github",
-            url: "https://github.com/",
-            icon: "brand-github",
-            icon_color: "#d1d9e6",
-          }
-        ],
-      }, {
-        name: "Resources",
-        links: [
-          {
-            name: "d2l",
-            url: "https://uottawa.brightspace.com/d2l/home",
-            icon: "brand-d2l",
-            icon_color: "#a9b665",
-            
-          },
-          {
-            name: "uozone",
-            url: "https://uozone2.uottawa.ca/?language=en",
-            icon: "brand-uozone",
-            icon_color: "#e78a4e",
-          },
-          {
-            name: "outlook",
-            url: "https://outlook.office.com/mail/",
-            icon: "brand-outlook",
-            icon_color: "#ea6962",
-          },
-        ],
-      }, {
-        name: "More",
-        links: [
-          {
-            name: "phind",
-            url: "https://www.phind.com/",
-            icon: "brand-openai",
-            icon_color: "#89b482",
-          },
-          {
-            name: "leonardo ai",
-            url: "https://app.leonardo.ai/",
-            icon: "brand-openai",
-            icon_color: "#r89b482",
-          },
-          {
-            name: "linkedin",
-            url: "https://www.linkedin.com/feed/",
-            icon: "brand-linkedin",
-            icon_color: "#7daea3",
-          },
-        ],
-      }],
+      categories: [
+        {
+          name: "Tools",
+          links: [
+            {
+              name: "Spotify",
+              url: "https://www.spotify.com/",
+              icon: "brand-spotify",
+              icon_color: "#1a782c",
+            },
+            {
+              name: "Todoist",
+              url: "https://todoist.com/",
+              icon: "brand-todoist",
+              icon_color: "#c41714",
+            },
+            {
+              name: "ChatGPT",
+              url: "https://chat.openai.com/",
+              icon: "brand-chatgpt",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "Github",
+              url: "https://github.com/",
+              icon: "brand-github",
+              icon_color: "#d1d9e6",
+            },
+          ],
+        },
+        {
+          name: "Resources",
+          links: [
+            {
+              name: "d2l",
+              url: "https://uottawa.brightspace.com/d2l/home",
+              icon: "brand-d2l",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "uozone",
+              url: "https://uozone2.uottawa.ca/?language=en",
+              icon: "brand-uozone",
+              icon_color: "#e78a4e",
+            },
+            {
+              name: "outlook",
+              url: "https://outlook.office.com/mail/",
+              icon: "brand-outlook",
+              icon_color: "#ea6962",
+            },
+          ],
+        },
+        {
+          name: "More",
+          links: [
+            {
+              name: "phind",
+              url: "https://www.phind.com/",
+              icon: "brand-openai",
+              icon_color: "#89b482",
+            },
+            {
+              name: "leonardo ai",
+              url: "https://app.leonardo.ai/",
+              icon: "brand-openai",
+              icon_color: "#r89b482",
+            },
+            {
+              name: "linkedin",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
+              icon_color: "#7daea3",
+            },
+          ],
+        },
+      ],
     },
     {
       name: "Media",
@@ -129,8 +132,6 @@ const default_config = {
               icon: "brand-aniwave",
               icon_color: "#773ce6",
             },
-
-            
           ],
         },
         {
@@ -206,8 +207,6 @@ const default_config = {
               icon: "brand-bank",
               icon_color: "#626882",
             },
-
-           
           ],
         },
         {
@@ -271,7 +270,6 @@ const default_config = {
         {
           name: "resources",
           links: [
-            
             {
               name: "dev.to",
               url: "https://dev.to/",
@@ -315,7 +313,6 @@ const default_config = {
             },
           ],
         },
-        
       ],
     },
   ],
@@ -324,11 +321,11 @@ const default_config = {
 const CONFIG = new Config(saved_config ?? default_config);
 // const CONFIG = new Config(default_config);
 
-(function() {
-  var css = document.createElement('link');
-  css.href = 'src/css/tabler-icons.min.css';
-  css.rel = 'stylesheet';
-  css.type = 'text/css';
+(function () {
+  var css = document.createElement("link");
+  css.href = "src/css/tabler-icons.min.css";
+  css.rel = "stylesheet";
+  css.type = "text/css";
   if (!CONFIG.config.localIcons)
-    document.getElementsByTagName('head')[0].appendChild(css);
+    document.getElementsByTagName("head")[0].appendChild(css);
 })();

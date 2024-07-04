@@ -24,7 +24,6 @@ Use the below link to access the page.
 
 https://ja-der.github.io/LaunchPad/
 
-
 ## Preview
 
 ![PREVIEW](LaunchPadpreview.png)
