@@ -226,6 +226,29 @@ const default_config = {
             },
           ],
         },
+        {
+          name: "stuff",
+          links: [
+            {
+              name: "ici-radio",
+              url: "https://ici.radio-canada.ca/",
+              icon: "brand-cbc",
+              icon_color: "#c41714",
+            },
+            {
+              name: "mlh",
+              url: "https://mlh.io/seasons/2025/events",
+              icon: "brand-mlh",
+              icon_color: "#r89b482",
+            },
+            {
+              name: "pinterest",
+              url: "https://www.pinterest.ca/",
+              icon: "brand-pinterest",
+              icon_color: "#c41714",
+            },
+          ],
+        },
       ],
     },
     {

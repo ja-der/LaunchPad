@@ -98,15 +98,23 @@
 .ti-brand-carbon:before {
   content: "\f747";
 }
-.ti-brand-openapi:before {
-  content: "\f747";
+
+.ti-brand-cbc:before {
+  content: "\eafd";
 }
-.ti-brand-openapi:before {
-  content: "\f747";
+
+.ti-brand-mlh:before {
+  content: "\ff23";
 }
-.ti-brand-openapi:before {
-  content: "\f747";
+
+.ti-brand-pinterest:before {
+  content: "\ec8d";
 }
+
+
+
+
+
 
 /*  */
 .ti-12-hours:before {
