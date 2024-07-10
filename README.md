@@ -1,4 +1,4 @@
-# LaunchPad
+# LaunchPad 🚀
 
 ## Note
 
@@ -6,24 +6,26 @@ This start page is based on the dawn repository, which has even more functionali
 
 ## Overview
 
-Welcome to LaunchPad! This minimalist and highly customizable start page is crafted to elevate browsing experience by providing a personalized and efficient launchpad for my favorite websites and tools. Designed with versatility and aesthetics in mind, it offers a clean and organized digital space.
+Welcome to LaunchPad! This minimalist and highly customizable start page is crafted to elevate browsing experience by providing a personalized and efficient launchpad for my favorite websites and tools. Designed with versatility and aesthetics in mind, it offers a clean and pretty digital space.
 
-## Key Features
+## Key Features 🌟
 
-- **Simplified Interface:** Boasting a clean and user-friendly design, the start page ensures a seamless experience for users of all levels.
+- **`Simplified Interface:`** Boasting a clean and user-friendly design, the start page ensures a seamless experience for users of all levels.
 
-- **Widget Flexibility:** Customize your start page effortlessly with editable widgets, allowing for easy addition, removal, and arrangement according to your preferences.
+- **`Widget Flexibility:`** Customize your start page effortlessly with editable widgets, allowing for easy addition, removal, and arrangement according to your preferences.
 
-- **Efficient Navigation:** Access frequently visited websites with a single click, saving you time and optimizing your online activities.
+- **`Efficient Navigation:`** Access frequently visited websites with a single click, saving you time and optimizing your online activities.
 
-- **Aesthetically Pleasing:** Visually delightful experience with lots of eye-candy making for a sense of coziness.
+- **`Aesthetically Pleasing:`** Visually delightful experience with lots of eye-candy making for a sense of coziness.
 
-## Getting Started
+## Getting Started 🛠️
 
-Use the below link to access the page.
+Use the below link to access the page. Remember to change the new tab redirect in your browser settings.
 
 https://ja-der.github.io/LaunchPad/
 
+---
+
 ## Preview
 
-![PREVIEW](LaunchPadpreview.png)
+![PREVIEW](launchpad_preview.png)
