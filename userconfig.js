@@ -161,6 +161,12 @@ const default_config = {
               icon: "brand-xiaohongshu",
               icon_color: "#b50e0e",
             },
+            {
+              name: "Instagram",
+              url: "https://www.instagram.com/",
+              icon: "brand-instagram",
+              icon_color: "#C13584",
+            },
           ],
         },
         {
@@ -196,16 +202,22 @@ const default_config = {
           name: "mails",
           links: [
             {
-              name: "gmail",
+              name: "Gmail",
               url: "https://mail.google.com/mail/u/0/",
               icon: "brand-gmail",
               icon_color: "#ea6962",
             },
             {
-              name: "bmo",
+              name: "Wealthsimple",
+              url: "https://www.wealthsimple.com/en-ca",
+              icon: "brand-wealthsimple",
+              icon_color: "#r89b482",
+            },
+            {
+              name: "BMO",
               url: " https://www.bmo.com/en-ca/main/personal/",
               icon: "brand-bank",
-              icon_color: "#626882",
+              icon_color: "#0047AB",
             },
           ],
         },
@@ -304,6 +316,18 @@ const default_config = {
               url: "https://news.ycombinator.com/",
               icon: "article",
               icon_color: "#89b482",
+            },
+            {
+              name: "Codecademy",
+              url: "https://www.codecademy.com/learn",
+              icon: "brand-codecademy",
+              icon_color: "#89b482",
+            },
+            {
+              name: "LeetCode",
+              url: "https://leetcode.com/",
+              icon: "brand-leetcode",
+              icon_color: "#cc8a10",
             },
           ],
         },

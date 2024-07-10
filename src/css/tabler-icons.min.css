@@ -111,9 +111,21 @@
   content: "\ec8d";
 }
 
+.ti-brand-wealthsimple:before {
+  content: "\ef49";
+}
 
+.ti-brand-instagram:before {
+  content: "\ec20";
+}
 
+.ti-brand-codecademy:before {
+  content: "\ea77";
+}
 
+.ti-brand-leetcode:before {
+  content: "\fa51";
+}
 
 
 /*  */
