@@ -7,11 +7,6 @@
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/tabler-icons.ttf?v2.33.0") format("truetype");
-  /* src: */
-  /*   url("../fonts/tabler-icons.eot?#iefix-v2.33.0") format("embedded-opentype"), */
-  /*   url("../fonts/tabler-icons.woff2?v2.33.0") format("woff2"), */
-  /*   url("../fonts/tabler-icons.woff?") format("woff"), */
-  /*   url("../fonts/tabler-icons.ttf?v2.33.0") format("truetype"); */
 }
 
 .ti {
@@ -35,14 +30,8 @@
 .ti-brand-spotify:before {
   content: "\ed03";
 }
-.ti-brand-todoist:before {
-  content: "\eb6a";
-}
 .ti-brand-chatgpt:before {
   content: "\f78e";
-}
-.ti-brand-github:before {
-  content: "\f7e7";
 }
 .ti-brand-github:before {
   content: "\f7e7";
@@ -127,6 +116,29 @@
   content: "\fa51";
 }
 
+.ti-brand-neetcode:before {
+  content: "\ea77";
+}
+
+.ti-brand-bytebytego:before {
+  content: "\f7ff";
+}
+
+.ti-brand-ripplematch:before {
+  content: "\ed82";
+}
+
+.ti-brand-jobright:before {
+  content: "\fb03";
+}
+
+.ti-brand-nslsc:before {
+  content: "\ff44";
+}
+
+.ti-brand-osap:before {
+  content: "\100a8";
+}
 
 /*  */
 .ti-12-hours:before {
@@ -14094,4 +14106,3 @@
 .ti-zzz-off:before {
   content: "\f440";
 }
-/*# sourceMappingURL=tabler-icons.min.css.map */

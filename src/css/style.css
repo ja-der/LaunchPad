@@ -55,7 +55,7 @@ tabs-list {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--bg);
-  background-image: url(../img/bg_image.jpg);
+  background-image: url(../img/bg-image.jpg);
 }
 
 .fastlink-icon {

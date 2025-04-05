@@ -12,7 +12,7 @@ const default_config = {
   },
   search: {
     engines: {
-      d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
+      g: ["https://www.google.com/search?q=", "Google"],
     },
   },
   disabled: ["search-bar"],
@@ -28,28 +28,16 @@ const default_config = {
           name: "Tools",
           links: [
             {
-              name: "Spotify",
+              name: "spotify",
               url: "https://www.spotify.com/",
               icon: "brand-spotify",
               icon_color: "#1a782c",
             },
             {
-              name: "Todoist",
-              url: "https://todoist.com/",
-              icon: "brand-todoist",
-              icon_color: "#c41714",
-            },
-            {
-              name: "ChatGPT",
+              name: "chatGPT",
               url: "https://chat.openai.com/",
               icon: "brand-chatgpt",
               icon_color: "#a9b665",
-            },
-            {
-              name: "Github",
-              url: "https://github.com/",
-              icon: "brand-github",
-              icon_color: "#d1d9e6",
             },
           ],
         },
@@ -77,25 +65,19 @@ const default_config = {
           ],
         },
         {
-          name: "More",
+          name: "Finances",
           links: [
             {
-              name: "phind",
-              url: "https://www.phind.com/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
+              name: "nslsc",
+              url: "https://www.csnpe-nslsc.canada.ca/en/home",
+              icon: "brand-nslsc",
+              icon_color: "#b91c1c",
             },
             {
-              name: "leonardo ai",
-              url: "https://app.leonardo.ai/",
-              icon: "brand-openai",
-              icon_color: "#r89b482",
-            },
-            {
-              name: "linkedin",
-              url: "https://www.linkedin.com/feed/",
-              icon: "brand-linkedin",
-              icon_color: "#7daea3",
+              name: "osap",
+              url: "https://www.ontario.ca/page/osap-ontario-student-assistance-program",
+              icon: "brand-osap",
+              icon_color: "#007749",
             },
           ],
         },
@@ -265,98 +247,86 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
-          name: "Tools",
+          name: "Resources",
           links: [
             {
               name: "github",
               url: "https://github.com/",
               icon: "brand-github",
-              icon_color: "#7daea3",
+              icon_color: "#d1d9e6",
             },
             {
-              name: "gitlab",
-              url: "https://gitlab.com/",
-              icon: "brand-gitlab",
-              icon_color: "#7daea3",
+              name: "tailwind",
+              url: "https://tailwindcss.com/",
+              icon: "brand-tailwind",
+              icon_color: "#38bdf8",
             },
             {
-              name: "OverAPI",
-              url: "https://overapi.com/python",
-              icon: "brand-openapi",
-              icon_color: "#7daea3",
+              name: "figma",
+              url: "https://www.figma.com/",
+              icon: "brand-figma",
+              icon_color: "#a259ff",
             },
-            {
-              name: "carbon",
-              url: "https://carbon.now.sh/",
-              icon: "brand-carbon",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "vscode",
-              url: "https://vscode.dev/",
-              icon: "brand-vscode",
-              icon_color: "#7daea3",
-            },
+            // {
+            //   name: "OverAPI",
+            //   url: "https://overapi.com/python",
+            //   icon: "brand-openapi",
+            //   icon_color: "#7daea3",
+            // },
+            // {
+            //   name: "carbon",
+            //   url: "https://carbon.now.sh/",
+            //   icon: "brand-carbon",
+            //   icon_color: "#7daea3",
+            // },
           ],
         },
         {
-          name: "resources",
+          name: "Tools",
           links: [
             {
-              name: "dev.to",
-              url: "https://dev.to/",
-              icon: "brand-flipboard",
-              icon_color: "#89b482",
-            },
-            {
-              name: "hacker news",
-              url: "https://news.ycombinator.com/",
-              icon: "article",
-              icon_color: "#89b482",
-            },
-            {
-              name: "Codecademy",
-              url: "https://www.codecademy.com/learn",
-              icon: "brand-codecademy",
-              icon_color: "#89b482",
-            },
-            {
-              name: "LeetCode",
+              name: "leetCode",
               url: "https://leetcode.com/",
               icon: "brand-leetcode",
               icon_color: "#cc8a10",
             },
+            {
+              name: "neetcode",
+              url: "https://neetcode.io/practice",
+              icon: "brand-neetcode",
+              icon_color: "#00d1b2",
+            },
+            {
+              name: "bytebytego",
+              url: "https://blog.bytebytego.com/?utm_source=site",
+              icon: "brand-bytebytego",
+              icon_color: "#0284c7",
+            },
           ],
         },
         {
-          name: "challenges",
+          name: "Career",
           links: [
             {
-              name: "hackthebox",
-              url: "https://app.hackthebox.com",
-              icon: "box",
-              icon_color: "#a9b665",
+              name: "linkedin",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
+              icon_color: "#0077b5",
             },
             {
-              name: "cryptohack",
-              url: "https://cryptohack.org/challenges/",
-              icon: "brain",
-              icon_color: "#e78a4e",
+              name: "jobright",
+              url: "https://jobright.ai/jobs/recommend",
+              icon: "brand-jobright",
+              icon_color: "#a3e635",
             },
             {
-              name: "tryhackme",
-              url: "https://tryhackme.com/dashboard",
-              icon: "brand-onedrive",
-              icon_color: "#ea6962",
-            },
-            {
-              name: "hackerrank",
-              url: "https://www.hackerrank.com/dashboard",
-              icon: "code-asterix",
-              icon_color: "#a9b665",
+              name: "ripplematch",
+              url: "https://app.ripplematch.com/v2/login",
+              icon: "brand-ripplematch",
+              icon_color: "#6a1b9a",
             },
           ],
         },
@@ -366,7 +336,6 @@ const default_config = {
 };
 
 const CONFIG = new Config(saved_config ?? default_config);
-// const CONFIG = new Config(default_config);
 
 (function () {
   var css = document.createElement("link");
